@@ -1,0 +1,165 @@
+{{extend 'hm.html'}}
+<br>
+
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span3 bs-docs-sidebar">
+            <!--Sidebar content-->
+                <ul class="well nav nav-list bs-docs-sidenav affix">
+                    <!--<li class="nav-header">Quick Browsing</li>-->
+                    <!-- <li class><a href="#home"> Home </a></li> -->
+                    <li class><a href="#sobre"> Sobre o Projeto </a></li>
+                    <li class><a href="#frentes"> Frentes Oceânicas </a></li>
+                    <li class><a href="#modelagem"> Modelagem Numérica </a></li>
+                    <li class><a href="#equipe"> Equipe </a></li>
+                    <li class><a href="#contato"> Contato </a></li>
+                    <li class><a href="#tidbits"> Dados In Situ </a></li>
+                    <li class><a href="{{=URL('static','images/mrof.pdf')}}"> MROF </a></li>
+                    <li class><a href="#eumetsat"> EUMETSAT </a></li>
+                </ul>
+
+        </div> <!-- span3 -->
+
+        <div class="span9">
+
+            <section id="home">
+                <div class="page-header">
+                <img src="{{=URL('static','images/blend.png')}}" height="750" width="1500"/> 
+                    
+
+            </section> <!-- home -->
+<br><br>
+            <section id="sobre">
+                <div class="page-header">
+                    <h1> O Projeto DetecFeições </h1>
+                </div>
+
+                <h5> A Corrente do Brasil (CB) flui ao largo da região sul e sudeste do Brasil. Na região entre Vitória-Trindade e Cabo de Santa Marta Grande, a CB meandra e eventualmente fecha-se em vórtices, que são emitidos ou reabsorvidos pela mesma. O Projeto "Detecção de Feições Oceanográficas ao largo do Sudeste Brasileiro a partir de Dados Orbitais" (DetecFeições) financiado pela FAPERJ (Proc: APQ1-26/111.749/2010) teve como objetivo principal a inferência do comportamento de curto prazo das feições oceânicas encontradas no sudeste brasileiro a partir de imagens orbitais. Possibilitou a compreensão da dinâmica de meso e larga escala do sistema CB em caráter sinótico. Como exemplo, foi possível inferir a taxa de crescimento e propagação da CB, conhecendo seu comportamento e monitorando a sua estrutura através de sensoriamento remoto.
+                </h5>
+
+                <h5> Esta nova fase, que possibilitou a divulgação via web dos resultados, é fruto do Projeto "Detecção de Feições Oceanográficas ao largo do Leste-Sudeste Brasileiro a partir de Dados Orbitais e Modelagem Numérica" (DetecFeições II) FAPERJ (Proc:  ARQ1-26/110.327/2012).  O DetecFeições II é desenvolvido no Instituto de Estudos do Mar Almirante Paulo Moreira (IEAPM) em conjunto com a Universidade Federal da Bahia (UFBA) e a Univerisade do Estado do Rio de Janeiro (UERJ), de forma a estabelecer uma sistematização de detecção de feições oceanográficas. Propõe-se um sistema de detecção de frentes oceânicas, a de partir dados orbitais de Temperatura da Superfície do Mar, Cor do Oceano e Altimetria, associando-os a simulações numéricas no intuito de obter delimitações das feições oceanográficas, como a frente térmica da Corrente do Brasil, seus vórtices e os sítios de ressurgência costeira. Um dos produtos deste projeto é a disponibilização em tempo real das delimitações da CB, seus vórtices e os sítios de ressurgência em página web pública para grupos de pesquisa com interesse na dinâmica de meso-escala da CB.
+                </h5>
+
+                <h5> Até o momento, nesta página web, estarão disponíveis imagens de Temperatura da Superfície do Mar, delimitação da Frente térmica da CB para o sudeste e a previsão numérica de curto perído baseado na técnica de Modelos Regionais Orientados por Feições (MROF).
+                </h5>
+                
+                <h5> Em breve novos produtos serão divulgados!
+                </h5>
+
+            <br><br>
+
+            </section> <!-- sobre -->
+
+            <section id="frentes">
+                <div class="page-header">
+                    <h1> Frentes Oceânicas </h1>
+                </div>
+
+                <h3> Digitalização da frente térmica da Corrente do Brasil </h3>
+
+                <p> Operacionalização do procedimento de digitalização e a análise dos dados orbitais em frequencia de 3 vezes por semana  (segunda, quarta e sexta-feiras).
+                </p>
+
+                <h5>
+                <strong style="color:red">Dados em teste. Em breve serão incluídos dados reais </strong>
+                </h5>
+
+                <img src="{{=URL('static','images/sst.png')}}" height="750" width="1500"/>
+                
+                <br><br>
+
+            </section> <!-- frentes -->
+
+            <section id="modelagem">
+                <div class="page-header">
+                    <h1>Modelagem Numérica</h1>
+                </div>
+
+                <h3> Previsão numérica de curto período a partir de dados orbitais </h3>
+
+                <p> O sistema implementado para a modelagem de previsão de curto período, foi baseado na técnica de Modelos Regionais Orientados por Feições, que alia dados ”in situ”, modelagem paramétrica, dados orbitais e modelagem numérica, de forma a construir a estrutura sinótica do oceano realística.
+                </p>
+
+                <h5>
+                <strong style="color:red">Dados em teste. Em breve serão incluídos dados reais </strong>
+                </h5>
+
+                <img src="{{=URL('static','images/previsao.png')}}" height="750" width="1500"/>
+                
+                <br><br>
+
+
+
+            </section> <!-- frentes -->
+
+            <section id="equipe">
+                <div class="page-header">
+                    <h1>Equipe</h1>
+                </div>
+
+                <ul>
+                    <li> <a href="http://www.ieapm.mar.mil.br/pesquisa/oceanofisica/pesquisadores.htm" target="_blank"> Leandro Calado </a> / IEAPM - Coordenador
+                    <li> <a href="http://www.ieapm.mar.mil.br/pesquisa/oceanofisica/pesquisadores.htm" target="_blank"> Eduardo Negri de Oliveira </a> / UERJ - Pesquisador
+                    <li> <a href="http://www.ieapm.mar.mil.br/pesquisa/oceanofisica/pesquisadores.htm" target="_blank"> Alexandre Macedo Fernandes </a> / UERJ - Pesquisador
+                    <li> <a href="http://www.ieapm.mar.mil.br/pesquisa/oceanofisica/pesquisadores.htm" target="_blank"> Carlos Alessandre Domingos Lentini </a> / UFBA - Pesquisador
+                    <li> <a href="http://www.ieapm.mar.mil.br/pesquisa/oceanofisica/pesquisadores.htm" target="_blank"> Rafael Guarino Soutelino </a> / IEAPM - Pesquisador
+                    <li> <a href="http://www.ieapm.mar.mil.br/pesquisa/oceanofisica/pesquisadores.htm" target="_blank"> Victor Azevedo Godoi </a> / IEAPM - Pesquisador
+                    <li> <a href="http://www.ieapm.mar.mil.br/pesquisa/oceanofisica/pesquisadores.htm" target="_blank"> Natalia Pereira Saraiva da Silva </a> / IEAPM - Pesquisador
+                    <li> <a href="http://www.ieapm.mar.mil.br/pesquisa/oceanofisica/pesquisadores.htm" target="_blank"> Vanessa Bach </a> / IEAPM - Bolsista FAPERJ/TCT
+                    <li> <a href="http://www.ieapm.mar.mil.br/pesquisa/oceanofisica/pesquisadores.htm" target="_blank"> Elaine A. de Oliveira </a> / UERJ-IEAPM - Aluna de Mestrado
+                    <li> <a href="http://www.ieapm.mar.mil.br/pesquisa/oceanofisica/pesquisadores.htm" target="_blank"> Gabriel Codato Antonio Silva </a> / UFF-IEAPM - Aluno de Mestrado
+                    <li> <a href="http://www.ieapm.mar.mil.br/pesquisa/oceanofisica/pesquisadores.htm" target="_blank"> Carolina Mayumi Sato </a> / UFRJ-IEAPM - Aluno de Mestrado
+                    <li> <a href="http://www.ieapm.mar.mil.br/pesquisa/oceanofisica/pesquisadores.htm" target="_blank"> Letícia Vasques dos Reis Portella Nascimento </a> / UFSC-IEAPM - Aluna de Graduação
+                    
+                </ul>
+
+                <br><br>
+
+            </section> <!-- contato -->
+
+            <section id="contato">
+                <div class="page-header">
+                    <h1> Contato </h1>
+                </div>
+
+                <h3> Grupo de Sensoriamento Remoto do IEAPM </h3>
+                <p> Rua Kioto, 253 - Praia dos Anjos, Arraial do Cabo, RJ 28930-000 </p>
+                <p> grupodesensoriamentoremoto@gmail.com </p>
+                <p> Tel: (22) 2622-9052 ; (22) 2622-9017 </p>
+            
+            <br><br>
+
+            </section> <!-- contato -->
+
+            <section id="tidbits">
+                <div class="page-header">
+                    <h1> Dados In Situ </h1>
+                </div>
+
+                <h3> Medição de séries de temperatura em Arraial do Cabo </h3>
+                <p> Esta etapa do Projeto tem intenção de  medir  temperatura através de dispositivos TIDBITS (ONSET-HOBO) distribuídos na região de Cabo Frio e Arraial do Cabo, com o objetivo de monitorar o efeito da ressurgência costeira para os períodos superiores a três anos. Com estes equipamentos distribudos ao largo de Arraial do Cabo será possível investigar as escalas espaco-temporais da resurgência costeira na região. Estes dados serão a base na validação das imagens orbitais e nos modelos numéricos que serão implementados para o estudo da interação das feições oceâncias e costeiras.  </p>
+
+                <br>
+
+                <a class="btn btn-success" href="https://mapsengine.google.com/map/edit?mid=zyEWxtmewm60.kqyTCqQVgm04" target="_blank">Mapa dos termômetros distribuídos em Arraial do Cabo</a>
+
+                <br><br>
+                    
+            </section> <!-- tidbits -->
+
+
+        </div> <!-- span7 -->
+
+    </div> <!-- row-fluid -->
+</div> <!-- container-fluid -->
+
+<br><br><br>
+
+<p> DetecFeições - FAPERJ (ARQ1 E 26/110.327/2012)
+
+
+
+
+
+

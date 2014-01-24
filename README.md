@@ -1,4 +1,1 @@
-detecfeicoes
-============
-
-Website do Projeto DetecFeições do Grupo de Sensoriamento Remoto do IEAPM
+README file for www.rsoutelino.com web2py project
