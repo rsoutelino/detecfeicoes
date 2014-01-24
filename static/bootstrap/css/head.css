@@ -16,7 +16,7 @@
 	/*background: -webkit-linear-gradient(45deg, #A5A7C1 0%,#D5E1F0 100%);*/
 	/*background: -o-linear-gradient(45deg, #A5A7C1 0%,#D5E1F0 100%);*/
 	/*background: -ms-linear-gradient(45deg, #A5A7C1 0%,#D5E1F0 100%);*/
-	background: linear-gradient(0deg, #D5CECE 0%, #BAB8B8 100%);
+	background: linear-gradient(0deg, #C7C7C7 0%, #E8E8E8 100%);
 	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 );*/
 	-webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	/*-moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);*/
